@@ -1,0 +1,21 @@
+.loader {
+    margin: 2vmin;
+    width: 10vmin;
+    height: 10vmin;
+    border: 1vmin dashed indianred;
+    border-radius: 50%;
+    animation: rotate 1.5s infinite alternate;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(0.6);
+    }
+    50% {
+        transform: rotate(300deg) scale(1);
+    }
+    to {
+        transform: rotate(360deg) scale(0.6);
+    }
+}
+

@@ -1,0 +1,22 @@
+.navbar {
+    background-color: indianred;
+    align-self: stretch;
+}
+
+.nb-link {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    float: left;
+}
+
+.nb-link:hover {
+    background-color: white;
+    color: indianred;
+}
+
+.nb-btn-div {
+    float: right;
+    margin: 9px;
+    background: white;
+}

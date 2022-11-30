@@ -1,0 +1,44 @@
+{
+  "players": [
+    { "id": 1, "number": 99, "name": "Александр Мезенцев", "car": "E36 400hp", "team": 1, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 2, "number": 74, "name": "Феодор Чевычелов", "car": "S13 450hp", "team": 2, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 3, "number": 51, "name": "Константин Бекетов", "car": "E36 400hp", "team": 1, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 4, "number": 36, "name": "Сергей Кабаргин", "car": "Flanker F 600hp", "team": 2, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 5, "number": 5, "name": "биба", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 6, "number": 6, "name": "фримен", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 7, "number": 7, "name": "боба", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 8, "number": 8, "name": "лупа", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 9, "number": 9, "name": "пупа", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 10, "number": 10, "name": "джон", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 11, "number": 11, "name": "ваня", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 12, "number": 12, "name": "трумен", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 13, "number": 13, "name": "димас", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 14, "number": 14, "name": "тимон", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 15, "number": 15, "name": "я", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 16, "number": 16, "name": "Голинковский", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 17, "number": 17, "name": "дрифт-машина", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 18, "number": 18, "name": "гилфойл", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 19, "number": 19, "name": "динэш", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 20, "number": 20, "name": "дзан-янг", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 21, "number": 21, "name": "бахман", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 22, "number": 22, "name": "битчард", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 23, "number": 23, "name": "моника", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 24, "number": 24, "name": "одинадцать", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 25, "number": 25, "name": "векна", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 26, "number": 26, "name": "винни", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 27, "number": 27, "name": "томо", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 28, "number": 28, "name": "линус торвальдс", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 29, "number": 29, "name": "ежик в тумане", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 30, "number": 30, "name": "Екатерина Набойченко", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 31, "number": 31, "name": "Аркадий Цареградцев", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 32, "number": 32, "name": "Роман Тиводар", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []},
+    { "id": 33, "number": 33, "name": "Роман Литвин", "car": "Flanker F 600hp", "team": 0, "totalScore":  0, "firstTry": [], "secondTry":  []}
+  ],
+  "teams": [
+    { "id": 1, "title": "Bipolar Bears", "players": [1], "totalScore": 0},
+    { "id": 2, "title": "Lucky Station", "players": [2], "totalScore": 0}
+  ],
+  "judges": [{"id": 1, "name": "Аркадий Пучинин"}
+  ],
+  "bracket": []
+}

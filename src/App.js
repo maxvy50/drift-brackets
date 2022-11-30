@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/App.css';
+import Navbar from "./components/UI/Navbar/Navbar";
+import {AuthContext} from "./context/AuthContext";
+import {useContext, useEffect, useState} from "react";
+import AppRouter from "./routing/AppRouter";
+import {BrowserRouter as Router} from "react-router-dom";
+import {BracketContext} from "./context/BracketContext";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [isUserAuth, setIsUserAuth] = useState(true);
+    const [isAuthAccepted, setIsAuthAccepted] = useState(true);
+
+    const [players, setPlayers] = useState([]);
+    const [bracket, setBracket] = useState([]);
+
+    useEffect(() => {
+        if (localStorage.getItem('auth') === 'true') {
+            setIsUserAuth(true);
+        }
+        setIsAuthAccepted(true);
+    }, []);
+
+    return (
+        <AuthContext.Provider value={{
+            isUserAuth,
+            setIsUserAuth,
+            isAuthAccepted,
+        }}>
+            <BracketContext.Provider value={{
+                bracket,
+                setBracket,
+                players,
+                setPlayers
+            }}>
+                <Router>
+                    <Navbar links={[ //todo переделать на routes.js
+                        {path: "about", text: "О нас"},
+                        {path: "list", text: "Пилоты"},
+                        {path: "bracket", text: "Сетка"},
+                    ]}/>
+                    <AppRouter/>
+                </Router>
+            </BracketContext.Provider>
+        </AuthContext.Provider>
+    );
 }
 
 export default App;
